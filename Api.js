@@ -1,5 +1,5 @@
-import express from "express";
-import mongoose from 'mongoose';
+const express = require("express");
+const mongoose = require("mongoose");
 const validateUsers=require("./validateUsers")
 const project_Model=require("./Model/project_Model")
 const user_Model=require("./Model/user_Model")
